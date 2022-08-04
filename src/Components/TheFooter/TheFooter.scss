@@ -1,0 +1,15 @@
+.footer-component {
+  background-color: var(--footer-color);
+  color: var(--text-color);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 200px;
+
+  &__contact {
+    font-size: 14px;
+  }
+}
+
