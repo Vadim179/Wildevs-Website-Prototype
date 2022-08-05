@@ -3,13 +3,24 @@ import './AboutSection.scss'
 const AboutSection = () => {
   const c = 'about-section-component'
 
-  return <div className={c}>
-    <div className={`${c}__background`}>
-        <div className={`${c}__background-overlay`} />
+  return (
+    <div className={c}>
+      <div className={`${c}__information`}>
+        <div className={`${c}__information-header`}>Hey, we're Wildevs.</div>
+        <div className={`${c}__information-body`}>
+          We're a young team of professionals who are passionate about
+          developing games. We make casual games for Android & IOS. We hail from
+          Chisinau, the capital of the Republic of Moldova in Eastern Europe.
+          Since then we have been growing both as a team of professionals and as
+          game developers. We happily meet new challenges and view them as
+          opportunities to expand our gaming development ideas, hone our
+          technical skills and gain more experience in the business. This
+          approach makes Wildevs the company of choice to make new games.
+        </div>
       </div>
-      <div className={`${c}__title`}>About</div>
-      <div className={`${c}__description`}>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</div>
-  </div>
+      <div className={`${c}__background`} />
+    </div>
+  )
 }
 
 export default AboutSection

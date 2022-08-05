@@ -12,8 +12,9 @@
   &__title {
     font-size: 24px;
     text-align: center;
-    letter-spacing: 10px;
+    letter-spacing: 5px;
     color: var(--text-color);
+    font-family: UbuntuBold;
   }
 
   &__links {
@@ -22,7 +23,9 @@
   }
 
   &__link {
-    color: #ffffff;
+    font-family: UbuntuLight;
+    color: rgba($color: #ffffff, $alpha: 0.5);
+
     transition: color 0.5s;
     cursor: pointer;
 
