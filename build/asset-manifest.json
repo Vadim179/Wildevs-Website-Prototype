@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.af32f8a7.css",
+    "main.js": "/static/js/main.761edd30.js",
+    "static/media/Wallpaper-1.png": "/static/media/Wallpaper-1.b0196ec83194eeecf159.png",
+    "static/media/Wallpaper-2.png": "/static/media/Wallpaper-2.e51ffcc04fed28b3e2b8.png",
+    "static/media/Wallpaper-0.png": "/static/media/Wallpaper-0.2cd88237f78d5ef225fc.png",
+    "static/media/Wallpaper-3.png": "/static/media/Wallpaper-3.f2220db9da9a6e19f705.png",
+    "static/media/Ubuntu-Light.ttf": "/static/media/Ubuntu-Light.0dd2d5986e2731a16ee7.ttf",
+    "static/media/Ubuntu-Medium.ttf": "/static/media/Ubuntu-Medium.e37c5546eb1a6efc4818.ttf",
+    "static/media/Ubuntu-Bold.ttf": "/static/media/Ubuntu-Bold.fec2d0f1431a6114a6ce.ttf",
+    "static/media/Wordiee-Logo.png": "/static/media/Wordiee-Logo.52f2866ca8e1ed8d85ed.png",
+    "static/media/Elecstrom.ttf": "/static/media/Elecstrom.cdeeeaa0a595d5063e63.ttf",
+    "static/media/RealYoung.ttf": "/static/media/RealYoung.4e8900521bb582b5aba2.ttf",
+    "static/media/Wilders-Logo.jpg": "/static/media/Wilders-Logo.cea2fbbb4d47a27d3994.jpg",
+    "index.html": "/index.html",
+    "main.af32f8a7.css.map": "/static/css/main.af32f8a7.css.map",
+    "main.761edd30.js.map": "/static/js/main.761edd30.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.af32f8a7.css",
+    "static/js/main.761edd30.js"
+  ]
+}

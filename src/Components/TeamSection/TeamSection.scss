@@ -1,4 +1,132 @@
 .team-section-component {
-  height: 100vh;
-  background: var(--bg-hover-color);
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  margin-bottom: 5px;
+  position: relative;
+
+  padding: 60px 40px;
+
+  @media screen and (max-width: 1000px) {
+    flex-direction: column;
+  }
+
+  &__title {
+    color: #ffffff;
+    font-size: 48px;
+    font-family: RealYoung;
+    text-align: center;
+    margin-right: 40px;
+    opacity: 0;
+
+    @media screen and (max-width: 1000px) {
+      margin-right: 0;
+    }
+
+    @media screen and (max-width: 720px) {
+      font-size: 24px;
+      margin-bottom: 40px;
+    }
+  }
+
+  &__members {
+    padding: 40px;
+    background: #241e92;
+    border-bottom: 12px solid rgba($color: #000000, $alpha: 0.15);
+    box-shadow: 0 10px 20px rgba($color: #000000, $alpha: 0.35);
+    position: relative;
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+
+    @media screen and (max-width: 720px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  &__bunny {
+    width: 100px;
+    height: 100px;
+
+    background: url(../../Assets/Bunny1.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    position: absolute;
+    left: -70px;
+    top: 50px;
+    transform: rotateZ(-90deg);
+    z-index: -1;
+
+    @media screen and (max-width: 1000px) {
+      left: 50px;
+      top: -70px;
+      transform: rotateZ(0deg);
+    }
+
+    @media screen and (max-width: 720px) {
+      width: 60px;
+      height: 60px;
+      left: -40px;
+      top: 50px;
+      transform: rotateZ(-90deg);
+    }
+  }
+
+  &__member {
+    background: #7b6cf6;
+    padding: 10px;
+    opacity: 0;
+
+    border-bottom: 8px solid rgba($color: #000000, $alpha: 0.15);
+    box-shadow: 0 5px 10px rgba($color: #000000, $alpha: 0.25);
+
+    &-name {
+      font-size: 14px;
+      text-align: center;
+      text-transform: uppercase;
+      color: #ffffff;
+      margin-bottom: 5px;
+
+      @media screen and (max-width: 720px) {
+        font-size: 10px;
+      }
+    }
+
+    &-role {
+      font-size: 10px;
+      text-align: center;
+      text-transform: uppercase;
+      color: rgba($color: #ffffff, $alpha: 0.5);
+
+      @media screen and (max-width: 720px) {
+        font-size: 8px;
+      }
+    }
+  }
+
+  &__background {
+    width: 100%;
+    height: 100%;
+
+    background: url('../../Assets/Wallpaper-3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    position: absolute;
+    z-index: -1;
+
+    &-overlay {
+      width: 100%;
+      height: 100%;
+      background-image: linear-gradient(to bottom right, #7b6cf6, #5432d3);
+      opacity: 0.75;
+    }
+  }
 }

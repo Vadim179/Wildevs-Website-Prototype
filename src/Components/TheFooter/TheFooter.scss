@@ -1,6 +1,6 @@
 .footer-component {
-  background-color: var(--footer-color);
-  color: var(--text-color);
+  background-color: #3e2c41;
+  color: #ffffff;
 
   display: flex;
   justify-content: center;
@@ -9,7 +9,16 @@
   height: 200px;
 
   &__contact {
-    font-size: 14px;
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba($color: #ffffff, $alpha: 0.5);
+
+    &-email {
+      margin-top: 8px;
+      font-size: 20px;
+      color: #ffffff;
+      text-transform: lowercase;
+    }
   }
 }
-

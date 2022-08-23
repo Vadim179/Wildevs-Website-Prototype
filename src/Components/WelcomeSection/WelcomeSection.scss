@@ -4,17 +4,28 @@
   user-select: none;
 
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 40px;
+  margin-bottom: 5px;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
 
   &__title {
-    font-size: 24px;
+    font-size: 36px;
     text-align: center;
+    text-shadow: 0 0 10px rgba($color: #ffffff, $alpha: 0.5);
     letter-spacing: 5px;
-    color: var(--text-color);
-    font-family: UbuntuBold;
+    color: #ffffff;
+    font-family: RealYoung;
+
+    @media screen and (max-width: 720px) {
+      font-size: 18px;
+    }
   }
 
   &__links {
@@ -23,10 +34,12 @@
   }
 
   &__link {
-    font-family: UbuntuLight;
+    font-size: 12px;
+    font-family: UbuntuBold;
+    text-transform: uppercase;
     color: rgba($color: #ffffff, $alpha: 0.5);
 
-    transition: color 0.5s;
+    transition: all 0.5s;
     cursor: pointer;
 
     &:hover {
@@ -38,9 +51,9 @@
     width: 100%;
     height: 100%;
 
-    background: url('../../Assets/Wallpaper.png');
+    background: url('../../Assets/Wallpaper-0.png');
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-position: center;
     background-size: cover;
 
     position: absolute;
@@ -49,7 +62,26 @@
     &-overlay {
       width: 100%;
       height: 100%;
-      background: rgba(0, 0, 0, 0.5);
+      background: rgba($color: #000000, $alpha: 0.5);
+      box-shadow: inset 0 0 100px #000000;
+    }
+
+    &-label {
+      position: absolute;
+      right: 20px;
+      bottom: 20px;
+
+      font-size: 12px;
+      letter-spacing: 2px;
+      color: rgba($color: #ffffff, $alpha: 0.5);
+      font-family: Ubuntu;
+      cursor: pointer;
+      transition: color 0.5s;
+      z-index: 1;
+
+      &:hover {
+        color: #ffffff;
+      }
     }
   }
 }

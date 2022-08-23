@@ -13,11 +13,14 @@
   src: url(./Assets/Ubuntu-Bold.ttf);
 }
 
-:root {
-  --bg-color: #333;
-  --bg-hover-color: #4ff36d;
-  --text-color: #f9f9f9;
-  --footer-color: #222222;
+@font-face {
+  font-family: Elecstrom;
+  src: url(./Assets/Elecstrom.ttf);
+}
+
+@font-face {
+  font-family: RealYoung;
+  src: url(./Assets/RealYoung.ttf);
 }
 
 * {
@@ -25,4 +28,14 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Ubuntu;
+}
+
+body {
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  & {
+    scrollbar-width: none; /* Firefox */
+  }
 }

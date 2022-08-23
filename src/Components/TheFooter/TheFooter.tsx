@@ -1,11 +1,14 @@
 import './TheFooter.scss'
 
-const Footer = () => {
-  const c = 'footer-component'
+const c = 'footer-component'
 
+const Footer = () => {
   return (
-    <div className={c}>
-      <div className={`${c}__contact`}>hello@wildevs.com</div>
+    <div id="contact" className={c}>
+      <div className={`${c}__contact`}>
+        Join us or report bugs at
+        <div className={`${c}__contact-email`}>wildevsgames@gmail.com</div>
+      </div>
     </div>
   )
 }
