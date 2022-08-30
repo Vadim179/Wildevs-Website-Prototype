@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.af32f8a7.css",
-    "main.js": "/static/js/main.761edd30.js",
+    "main.js": "/static/js/main.f6d11885.js",
     "static/media/Wallpaper-1.png": "/static/media/Wallpaper-1.b0196ec83194eeecf159.png",
     "static/media/Wallpaper-2.png": "/static/media/Wallpaper-2.e51ffcc04fed28b3e2b8.png",
     "static/media/Wallpaper-0.png": "/static/media/Wallpaper-0.2cd88237f78d5ef225fc.png",
@@ -15,10 +15,10 @@
     "static/media/Wilders-Logo.jpg": "/static/media/Wilders-Logo.cea2fbbb4d47a27d3994.jpg",
     "index.html": "/index.html",
     "main.af32f8a7.css.map": "/static/css/main.af32f8a7.css.map",
-    "main.761edd30.js.map": "/static/js/main.761edd30.js.map"
+    "main.f6d11885.js.map": "/static/js/main.f6d11885.js.map"
   },
   "entrypoints": [
     "static/css/main.af32f8a7.css",
-    "static/js/main.761edd30.js"
+    "static/js/main.f6d11885.js"
   ]
 }

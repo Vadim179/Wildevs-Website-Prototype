@@ -32,13 +32,12 @@ const AboutSection = () => {
           }
         >
           <div className={`${c}__about-info`}>
-            We're a young team of professionals who are passionate about
-            developing games. We make casual games for Android & IOS. Since then
-            we have been growing both as a team of professionals and as game
-            developers. We happily meet new challenges and view them as
-            opportunities to expand our gaming development ideas, hone our
-            technical skills and gain more experience in the business. This
-            approach makes Wildevs the company of choice to make new games.
+            The Wildevs team is a young and passionate group of game designers,
+            making casual games for the mobile market! We’re growing as a team,
+            happily meeting new challenges as opportunities to both learn more
+            about the varied field of game development and hone our skills
+            making amazing video games. Our fresh ideas and eclectic approach to
+            our passions makes us the company of choice to develop new games!
           </div>
         </InViewportDiv>
       </InViewportDiv>
